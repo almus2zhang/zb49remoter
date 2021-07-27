@@ -5,7 +5,7 @@ To expand it only support button single click.<br>
 Key1 to Key20 report button_1_single to button_20_single.<br>
 Key21 to Key40 report button_1_double to button_20_double.<br>
 Key41 to Key56 report button_1_triple to button_16_triple.<br>
-Please change all key type to toggle or momentary.<br>
+If set key1 to Key20 to multifunction K1 to K20 support single hold and release.<br>
 Have modified the key interval to 80ms so can response quick click.<br>
 For more details how to join please refer to Freepad.<br>
 ![Here](./images/huawei_remoter.jpg) 
