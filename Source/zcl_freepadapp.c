@@ -204,8 +204,16 @@ static void zclFreepadApp_SendKeysToBinds(byte keyCode, byte pressCount, bool is
 
 static void zclFreePadApp_SendKeys(byte keyCode, byte pressCount, bool isRelease) {
     byte button = zclFreePadApp_KeyCodeToButton(keyCode);
-    pressCount = button/FREEPAD_BUTTONS_COUNT + 1;
-    button = button%FREEPAD_BUTTONS_COUNT;
+    pressCount = button/FREEPAD_BUTTONS_COUNT + pressCount;
+    if(button != 0)
+    {
+      button = button%FREEPAD_BUTTONS_COUNT;
+      if(button ==0)
+      {
+        button = 20;
+        pressCount-=1;
+      }
+    }
     uint8 endPoint = zclFreePadApp_SimpleDescs[button - 1].EndPoint;
     if (isRelease) {
         zclFreePadApp_SendButtonPress(endPoint, RELEASE_CODE);
