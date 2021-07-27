@@ -1,5 +1,5 @@
 # zb49remoter
-This project is base on Freepad https://modkam.ru/?p=1264<br>
+This project is base on Freepad https://modkam.ru/?p=1264 https://github.com/diyruz/freepad<br>
 Expand the key to 7x7 49 or 7x8 56 and put is into a Huawei tv box remoter.<br>
 To expand it only support button single click.<br>
 Key1 to Key20 report button_1_single to button_20_single.<br>
