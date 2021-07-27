@@ -1,0 +1,5 @@
+git:
+  requireCleanWorkingDir: false
+github:
+  release: true
+  assets: ["firmwares/DIYRuZ_*.hex"]

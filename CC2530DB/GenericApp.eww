@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\GenericApp.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>FREEPADS</name>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_PM3</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_TL_PM3</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_LeTV_TL_PM3</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_LeTV</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_LeTV_PM3</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_LeTV_TL</configuration>
+            </member>
+            <member>
+                <project>GenericApp</project>
+                <configuration>DIYRuZ_FreePad_TL</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
