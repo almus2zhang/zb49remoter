@@ -16,6 +16,10 @@ Key code = (row-1)*8+col, eg. P0_4 to P1_5 is 2x8+4 = 20<br>
 For dont know what reason P1_1 will follow P1_0 so can not use P1_0 as row_8 then use P2_0 instead of P1_0 for the row 8 to expand key to 56 key.<br>
 If you want do make an pcb to fit your remoter just remove the no need key.<br>
 ![Here](./images/keymap.jpg) ![Here](./images/pcb.jpg)
+# other choose
+The HP MCE remoter is 49 key and it are row7 and col7 so after remove the IC on PCB we can use wire to connect with E18 zigbee module.<br>
+Here are the pictures of this remoter and modified PCB <br>
+![Here](./images/hpmce.jpg) ![Here](./images/hpmce1.jpg) ![Here](./images/hpmce2.jpg)
 
 # Freepad
 
